@@ -1,0 +1,82 @@
+.idea/*
+.idea/
+
+**/.loaded
+*.swo
+*.iml
+# Directories #
+/build/
+/bin/
+target/
+scripts_and_inputs/
+**/log.out
+spark/*log*
+beam/*log*
+flink/*log*
+
+/results/lncs/.gradle
+/results/lncs/.gradle/**/*
+
+**/.texpadtmp
+
+# OS Files #
+.DS_Store
+ 
+*.class
+ 
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# OSX
+######################
+ 
+.DS_Store
+.svn
+ 
+# Thumbnails
+._*
+ 
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+ 
+ 
+######################
+# Eclipse
+######################
+ 
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+ 
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+
+*.csv
+benchmark_settings.json
+
+logs/
